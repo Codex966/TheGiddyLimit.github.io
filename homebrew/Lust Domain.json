@@ -1,0 +1,174 @@
+"_meta": {
+		"sources": [
+			{
+				"json": "DeepMagic5e",
+				"abbreviation": "DM5e",
+				"full": "Deep Magic for 5th Edition - Subclasses",
+				"authors": [
+					"Kobold Press"
+				],
+				"convertedBy": [
+					"Zmann966"
+				],
+				"version": "1.0",
+				"url": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition/",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1566011005,
+		"dateLastModified": 1566011005
+	},
+
+"subclass": [
+    {
+        "name": "Lust Domain",
+        "source": "DM5e",
+        "className": "Cleric",
+        "classSource": "PHB",
+        "shortName": "Lust",
+        "subclassFeatures": [
+            "Gifts of Lust|Cleric|Lust|DM5e|1",
+	    "Channel Divinity: Lustful Distraction|Cleric|Lust|DM5e|2",
+	    "Lingering Seduction|Cleric|Lust|DM5e|6",
+	    "Divine Strike|Cleric|Lust|DM5e|8",
+	    "Master of Seduction|Cleric|Lust|17"
+        ]
+    }
+],
+"subclassTableGroups": [
+    {
+        "title": "Lust Domain Spells",
+        "colLabels": [
+            "Cleric Level",
+            "Spells"
+        ],
+        "rows": [
+            [
+                "1st",
+                "{spell Charm Person}, {@spell Command}"
+            ],
+            [
+                "3rd",
+                "{@spell Alter Self}, {@spell Suggestion}"
+            ]
+            [
+                "5th",
+                "{@spell Hypnotic Pattern}, {@spell Throes of Ecstasy|DMS}"
+            ],
+            [
+                "7th",
+                "{@spell Compulsion}, {@spell Lovesick|DMS}"
+            ],
+            [
+                "9th",
+                "{@spell Dominate Person}, {@spell Kiss of the Succubus|DMS}"
+            ],
+        ]
+    }
+]
+"subclassFeature": [
+    {
+        "name": "Lust Domain",
+        "source": "DM5e",
+        "className": "Cleric",
+        "classSource": "PHB",
+        "subclassShortName": "Lust",
+        "subclassSource": "DM5e",
+        "level": 1,
+        "entries": [
+		"The Lust domain concerns itself with desire, sex, and awakening passion in others. Clerics of lust often seek to seduce others with their wiles, either for their own pleasure, to lure them into a cult, or to otherwise manipulate them into doing the cleric’s bidding."
+	{
+	"name": "Gifts of Lust",
+	"entries": [            
+		"A cleric who adopts the Lust domain learns the {@spell friends|PHB} cantrip. They also gain proficiency in one of the following skills: {@skill Deception}, {@skill Performance}, or {@skill Persuasion}."
+       		   ]
+    	}
+		]
+    }
+    {
+        "name": "Channel Divinity: Lustful Distraction",
+        "source": "DM5e",
+        "className": "Cleric",
+        "classSource": "PHB",
+        "subclassShortName": "Lust",
+        "subclassSource": "DM5e",
+        "level": 2,
+	"header": 2,
+        "entries": [
+            "A cleric of the Lust domain of 2nd level or higher can use Channel Divinity to instill fascination and lust in others. As an action, the cleric speaks seductively and gazes lasciviously at creatures of his or her choice within 30 feet who can see and hear the cleric. Each target must make a DC 12 Wisdom saving throw. On a failed save, a target is compelled to devote its attention to the cleric for 1 minute. While the cleric commands their attention, the targets have disadvantage on Wisdom (Perception) checks to perceive any creature other than the cleric, and the cleric has advantage on Charisma (Deception) or (Persuasion) checks to further influence their behavior."
+       		   ]
+    }
+    {
+        "name": "Lingering Seduction",
+        "source": "DM5e",
+        "className": "Cleric",
+        "classSource": "PHB",
+        "subclassShortName": "Lust",
+        "subclassSource": "DM5e",
+        "level": 6,
+	"header": 2,
+        "entries": [
+            "A cleric of the Lust domain of 6th level of higher can keep the targets of a Lustful Distraction spellbound for up to 10 minutes as long as the cleric continues to speak to them."
+        ]
+    }
+    {
+        "name": "Divine Strike",
+        "source": "DM5e",
+        "className": "Cleric",
+        "classSource": "PHB",
+        "subclassShortName": "Lust",
+        "subclassSource": "DM5e",
+        "level": 8,
+	"header": 2,
+        "entries": [
+            "A cleric of the Lust domain of 8th level or higher has the ability to infuse his or her weapon strikes with divine energy. Once on each of the cleric’s turns, when hitting a creature with a weapon attack, the cleric can cause the attack to deal an extra {@dice 1d8} psychic damage to the target."
+        ]
+    }
+    {
+        "name": "Divine Strike",
+        "source": "DM5e",
+        "className": "Cleric",
+        "classSource": "PHB",
+        "subclassShortName": "Lust",
+        "subclassSource": "DM5e",
+        "level": 14,
+	"header": 2,
+        "entries": [
+            "For a cleric of 14th level or higher, the extra psychic damage of their Divine Strike is {@dice 2d8}."
+        ]
+    }
+    {
+        "name": "Master of Seduction",
+        "source": "DM5e",
+        "className": "Cleric",
+        "classSource": "PHB",
+        "subclassShortName": "Lust",
+        "subclassSource": "DM5e",
+        "level": 17,
+	"header": 2,
+        "entries": [
+            "A cleric of the Lust domain of 17th level or higher can command creatures he or she has seduced. While creatures are enraptured by Lustful Distraction, the cleric can take a bonus action on his or her turn to verbally command what each of those creatures will do on its next turn."
+        ]
+    }
+]
+"subclassSpells": [
+    "Charm Person"
+    "Command"
+    "Alter Self"
+    "Suggestion"
+    "Hypnotic Pattern"
+    "Compulsion"
+    "Dominate Person"
+    {
+        "name": "Throes of Ecstasy",
+        "source": "DMS"
+    }
+    {
+	"name": "Lovesick",
+        "source": "DMS"
+    }
+    {
+	"name": "Kiss of the Succubus",
+	"source": "DMS"
+    }
+]
